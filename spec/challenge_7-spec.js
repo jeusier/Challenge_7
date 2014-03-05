@@ -2,18 +2,18 @@
 var PrimeFinder = require("../challenge_7").PrimeFinder;
 
 // describe the class PrimeFinder
-describe("The last prime number", function () {
+describe("The nth prime number", function () {
 
 // write your tests here
 
-    it("for the first 10 natural numbers is XXX", function () {
+    it("at n=10 is 31", function () {
         var lastPrime = new PrimeFinder(10);
-        expect( lastPrime.getPrimeNumber() ).toEqual(7);
+        expect( lastPrime.getPrimeNumber() ).toEqual(29);
     });
 
     it("for the first 10,001 natural numbers is XXX", function () {
         var lastPrime = new PrimeFinder(10001);
-        expect( lastPrime.getPrimeNumber() ).toEqual(9973);
+        expect( lastPrime.getPrimeNumber() ).toEqual(104743);
     });
 
 });
